@@ -1,6 +1,9 @@
 <?php
   require_once('includes/load.php');
 ?>
+
+<!-- This deletes by finding the item through its ID. -->
+
 <?php
   $product = find_by_id('products',(int)$_GET['id']);
   if(!$product){
