@@ -3,6 +3,9 @@
   require_once('includes/load.php');
 ?>
 
+<!-- Below are the declarations for the date. Specifically year and month.
+ This specific file shows the daily sales in the Sales Report section from the sidebar. -->
+
 <?php
  $year  = date('Y');
  $month = date('m');
