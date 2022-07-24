@@ -2,6 +2,10 @@
   $page_title = 'Monthly Sales';
   require_once('includes/load.php');
 ?>
+
+<!-- Similar in structure to the Daily Sales page.
+However, this takes the monthly sales instead. -->
+
 <?php
  $year = date('Y');
  $sales = monthlySales($year);
