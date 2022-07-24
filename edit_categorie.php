@@ -2,6 +2,9 @@
   $page_title = 'Edit category';
   require_once('includes/load.php');
 ?>
+
+<!-- This edits by finding the item through its ID, as you can see below. -->
+
 <?php
 
   // This will display all categories.
