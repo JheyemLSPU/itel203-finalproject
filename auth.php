@@ -1,4 +1,9 @@
 <?php include_once('includes/load.php'); ?>
+
+<!-- This file is in charge of authenticating the login sequence.
+This also redirects the user and shows the welcome message OR shows
+an error message in case of an unsuccessful login. -->
+
 <?php
 $req_fields = array('username','password' );
 validate_fields($req_fields);
