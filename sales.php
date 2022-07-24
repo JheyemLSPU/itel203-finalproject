@@ -2,6 +2,9 @@
   $page_title = 'All sale';
   require_once('includes/load.php');
 ?>
+
+<!-- This displays ALL the sales, much like how the Products page does it. -->
+
 <?php
 $sales = find_all_sale();
 ?>
