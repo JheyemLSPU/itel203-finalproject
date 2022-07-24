@@ -3,6 +3,10 @@ $page_title = 'Sales Report';
 $results = '';
   require_once('includes/load.php');
 ?>
+
+<!-- The overall theme is simple for the generated reports.
+It is to help make it more printer-friendly. -->
+
 <?php
   if(isset($_POST['submit'])){
     $req_dates = array('start-date','end-date');
