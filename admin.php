@@ -2,6 +2,8 @@
   $page_title = 'Admin Home Page';
   require_once('includes/load.php');
 ?>
+
+<!-- Declarations for some values in the database that connect to other PHP functions. -->
 <?php
  $c_categorie     = count_by_id('categories');
  $c_product       = count_by_id('products');
@@ -10,8 +12,11 @@
  $recent_products = find_recent_product_added('5');
  $recent_sales    = find_recent_sale_added('5')
 ?>
+
+<!-- This puts the header on this page. This will be the same for every other main page. -->
 <?php include_once('layouts/header.php'); ?>
 
+<!-- This displays the boxes and tables shown at the dashboard -->
 <div class="row">
    <div class="col-md-6">
      <?php echo display_msg($msg); ?>
