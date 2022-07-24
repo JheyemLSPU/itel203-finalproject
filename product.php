@@ -3,6 +3,10 @@
   require_once('includes/load.php');
   $products = join_product_table();
 ?>
+
+<!-- This file displays everything in the Products page.
+ This is the page that shows up when you press on 'Manage Products'. -->
+
 <?php include_once('layouts/header.php'); ?>
   <div class="row">
      <div class="col-md-12">
