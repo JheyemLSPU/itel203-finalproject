@@ -1,6 +1,9 @@
 <?php
   require_once('includes/load.php');
 ?>
+
+<!-- This deletes by finding the item through its ID. -->
+
 <?php
   $d_sale = find_by_id('sales',(int)$_GET['id']);
   if(!$d_sale){
