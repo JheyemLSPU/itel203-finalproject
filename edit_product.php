@@ -2,6 +2,9 @@
   $page_title = 'Edit product';
   require_once('includes/load.php');
 ?>
+
+<!-- This edits by finding the item through its ID, as you can see below. -->
+
 <?php
 $product = find_by_id('products',(int)$_GET['id']);
 $all_categories = find_all('categories');
