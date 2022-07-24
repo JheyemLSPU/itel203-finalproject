@@ -4,6 +4,9 @@
   
   $all_categories = find_all('categories')
 ?>
+
+<!-- This will connect to and change values in the database whilst using other defined functions from other files in this project. -->
+
 <?php
  if(isset($_POST['add_cat'])){
    $req_field = array('categorie-name');
