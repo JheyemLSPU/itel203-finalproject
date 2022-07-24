@@ -4,6 +4,7 @@
   $all_categories = find_all('categories');
 ?>
 <?php
+ // This connects and changes information on the database regarding the products and their information.
  if(isset($_POST['add_product'])){
    $req_fields = array('product-title','product-categorie','product-quantity','buying-price', 'saleing-price' );
    validate_fields($req_fields);
