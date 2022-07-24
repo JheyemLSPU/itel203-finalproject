@@ -3,6 +3,10 @@
   require_once('includes/load.php');
   if (!$session->isUserLoggedIn(true)) { redirect('index.php', false);}
 ?>
+
+<!-- This shows the panels and the jumbotron along with the elements inside them
+ that appear after you login and get redirected to the home.php page. -->
+
 <?php include_once('layouts/header.php'); ?>
 <div class="row">
   <div class="col-md-12">
