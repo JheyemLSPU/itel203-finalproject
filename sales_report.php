@@ -2,6 +2,12 @@
 $page_title = 'Sale Report';
   require_once('includes/load.php');
 ?>
+
+<!-- This is the page that enables you to put 2 dates.
+ Every sale in between those two dates will appear in the
+generated report that the file sales_report_process.php
+produces after you generate a report here. -->
+
 <?php include_once('layouts/header.php'); ?>
 <div class="row">
   <div class="col-md-6">
