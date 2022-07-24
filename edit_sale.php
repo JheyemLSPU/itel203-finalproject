@@ -2,6 +2,9 @@
   $page_title = 'Edit sale';
   require_once('includes/load.php');
 ?>
+
+<!-- This edits by finding the item through its ID, as you can see below. -->
+
 <?php
 $sale = find_by_id('sales',(int)$_GET['id']);
 if(!$sale){
